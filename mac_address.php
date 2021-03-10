@@ -38,7 +38,7 @@ function random($length, $chars = '')
 }
 function serialkey()
 {
-	return random(4).'-'.random(4).'-'.random(4).'-'.random(4);
+	return random(4).'-'.random(4).'-'.random(4).'-'.random(4).'-'.random(4);
 }
 
 $product_key = serialkey();
